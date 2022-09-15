@@ -1,0 +1,23 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model ProductReport {
+  id             String   @id @default(uuid())
+  sku            String
+  productName    String
+  productUrl     String
+  listedPrice    Float    @default(0)
+  sellingPrice   Float    @default(0)
+  listedChanged  Boolean  @default(false)
+  sellingChanged Boolean  @default(false)
+  dateTime       DateTime @default(now())
+}

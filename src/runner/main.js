@@ -52,7 +52,7 @@ export const runner = async () => {
 
 			if (changeInListed) listingLastChanged = Date.now();
 			else {
-				listingLastChanged = (await ProductReport.findLatestListedChanged(sku)).dateTime || "never";
+				listingLastChanged = (await ProductReport.findLatestListedChanged(sku))?.dateTime || "never";
 			}
 
 			if (changeInSelling) sellingLastChanged = Date.now();

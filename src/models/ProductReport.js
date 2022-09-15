@@ -1,7 +1,5 @@
 import { db } from "../loaders/database.js";
 
-export const reports = db.collection("product_reports");
-
 // create
 const createReport = async (
 	sku = "",
@@ -12,50 +10,58 @@ const createReport = async (
 	sellingPrice = 0,
 	sellingChanged = false
 ) => {
-	const newDoc = await reports.insertOne({
-		sku,
-		productName,
-		productUrl,
-		listedPrice,
-		sellingPrice,
-		listedChanged,
-		sellingChanged,
-		dateTime: Date.now(),
+	const doc = await db.productReport.create({
+		data: {
+			sku,
+			productName,
+			productUrl,
+			listedPrice,
+			sellingPrice,
+			listedChanged,
+			sellingChanged,
+		},
 	});
-	return newDoc.insertedId;
+	return doc.id;
 };
 const createManyReports = async (details = []) => {
-	const dateTime = Date.now();
-	const newDocs = await reports.insertMany(
-		details.map((item) => ({
-			sku: item.sku,
-			productName: item.productName,
-			productUrl: item.productUrl,
-			listedPrice: item.listedPrice || item.currentListedPrice,
-			sellingPrice: item.sellingPrice || item.currentSellingPrice,
-			listedChanged: item.changeInListed,
-			sellingChanged: item.changeInListed,
-			dateTime,
-		}))
-	);
-	return newDocs.insertedIds;
+	const ids = [];
+	for (let detail of details) {
+		try {
+			// console.log(detail);
+			const {
+				sku,
+				productName,
+				productUrl,
+				currentListedPrice: listedPrice,
+				changeInListed: listedChanged,
+				currentSellingPrice: sellingPrice,
+				changeInSelling: sellingChanged,
+			} = detail;
+			const { id } = await createReport(sku, productName, productUrl, listedPrice, listedChanged, sellingPrice, sellingChanged);
+			ids.push(id);
+		} catch (ex) {
+			continue;
+		}
+	}
+	return ids;
 };
 
 // read
 const findByID = async (id = "") => {
-	return await reports.findOne({ _id: id });
+	return await db.productReport.findUnique(id);
 };
 const findLatestByProductSKU = async (sku = "") => {
-	return (await reports.find({ product_sku: sku }, { sort: { dateTime: -1 }, limit: 1 }).toArray()?.[0]) || null;
+	// return only latest record
+	return await db.productReport.findFirst({ where: { sku }, orderBy: { dateTime: "desc" } });
 };
 const findAllByProductSKU = async (sku = "") => {
-	return await reports.find({ product_sku: sku }).toArray();
+	return await db.productReport.findMany({ where: { sku }, orderBy: { dateTime: "desc" } });
 };
 const findLatestSellingChanged = async (sku = "") => {
-	return (await reports.find({ product_sku: sku, sellingChanged: true }, { sort: { dateTime: -1 }, limit: 1 }).toArray()?.[0]) || null;
+	return await db.productReport.findFirst({ where: { sku, sellingChanged: true }, orderBy: { dateTime: "desc" } });
 };
 const findLatestListedChanged = async (sku = "") => {
-	return (await reports.find({ product_sku: sku, listedChanged: true }, { sort: { dateTime: -1 }, limit: 1 }).toArray()?.[0]) || null;
+	return await db.productReport.findFirst({ where: { sku, listedChanged: true }, orderBy: { dateTime: "desc" } });
 };
 
 export default {

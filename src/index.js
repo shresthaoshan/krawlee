@@ -23,6 +23,7 @@ await database.connectDatabase();
 // termination
 async function graceful() {
 	// await agenda.stop();
+	await database.db.$disconnect();
 	process.exit(0);
 }
 

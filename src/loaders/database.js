@@ -1,12 +1,13 @@
-import { MongoClient } from "mongodb";
-import configs from "../configs/configs.js";
+import { PrismaClient } from "@prisma/client";
 
-const url = configs.DB_URL;
-const client = new MongoClient(url);
+export const db = new PrismaClient();
 
 export const connectDatabase = async () => {
-	await client.connect();
-	console.log("Connected successfully to server");
+	try {
+		await db.$connect();
+		console.log("Connection has been established successfully.");
+	} catch (ex) {
+		console.error("Unable to connect to the database:", error);
+		process.exit(1);
+	}
 };
-
-export const db = client.db();
