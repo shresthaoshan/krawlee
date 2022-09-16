@@ -1,14 +1,17 @@
-import { PuppeteerCrawler, KeyValueStore, Dataset } from "crawlee";
-import { priceToValue } from "../utils/prices.js";
-import { router } from "./routes.js";
+import { PuppeteerCrawler, Dataset } from "crawlee";
 
 import ProductReport from "../models/ProductReport.js";
+import configs from "../configs/configs.js";
+
+import { fetchInputRecords } from "../utils/google_sheets.js";
+import { priceToValue } from "../utils/prices.js";
+import { router } from "./routes.js";
 
 const crawler = new PuppeteerCrawler({ requestHandler: router });
 
 export const runner = async () => {
 	// fetch input from sheets
-	const input__products = await KeyValueStore.getInput();
+	const input__products = await fetchInputRecords(configs.INPUT_GOOGLE_SHEET_ID);
 
 	// scrape
 	await crawler.run(
@@ -46,9 +49,9 @@ export const runner = async () => {
 		// evaluate the changes to prices
 		if (prevDoc) {
 			pastListedPrice = prevDoc.listedPrice;
-			changeInListed = prevDoc.listedPrice == currentListed;
+			changeInListed = prevDoc.listedPrice !== currentListed;
 			pastSellingPrice = prevDoc.sellingPrice;
-			changeInSelling = prevDoc.sellingPrice == currentSelling;
+			changeInSelling = prevDoc.sellingPrice !== currentSelling;
 
 			if (changeInListed) listingLastChanged = Date.now();
 			else {

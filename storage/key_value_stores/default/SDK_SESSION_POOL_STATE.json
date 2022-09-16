@@ -1,9 +1,9 @@
 {
-  "usableSessionsCount": 4,
+  "usableSessionsCount": 5,
   "retiredSessionsCount": 0,
   "sessions": [
     {
-      "id": "session_gZp9keiDSf",
+      "id": "session_yarhoBlqoX",
       "cookieJar": {
         "version": "tough-cookie@4.1.2",
         "storeType": "MemoryCookieStore",
@@ -16,14 +16,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2022-09-15T16:06:29.334Z",
-      "createdAt": "2022-09-15T15:16:29.334Z",
+      "expiresAt": "2022-09-16T11:48:41.991Z",
+      "createdAt": "2022-09-16T10:58:41.991Z",
       "usageCount": 1,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_jrOaJ52uL9",
+      "id": "session_oeoEpIMwoc",
       "cookieJar": {
         "version": "tough-cookie@4.1.2",
         "storeType": "MemoryCookieStore",
@@ -34,270 +34,280 @@
         "cookies": [
           {
             "key": "_gid",
-            "value": "GA1.3.1991354254.1663254997",
-            "expires": "2022-09-16T15:16:42.000Z",
+            "value": "GA1.3.1295751202.1663325928",
+            "expires": "2022-09-17T10:58:54.000Z",
             "domain": "daraz.com.np",
             "path": "/",
             "hostOnly": false,
-            "creation": "2022-09-15T15:16:37.470Z",
-            "lastAccessed": "2022-09-15T15:16:43.337Z"
+            "creation": "2022-09-16T10:58:48.344Z",
+            "lastAccessed": "2022-09-16T10:58:55.393Z"
           },
           {
             "key": "_gcl_au",
-            "value": "1.1.1582000109.1663254995",
-            "expires": "2022-12-14T15:16:35.000Z",
+            "value": "1.1.607039476.1663325927",
+            "expires": "2022-12-15T10:58:46.000Z",
             "domain": "daraz.com.np",
             "path": "/",
             "hostOnly": false,
-            "creation": "2022-09-15T15:16:37.483Z",
-            "lastAccessed": "2022-09-15T15:16:43.339Z"
+            "creation": "2022-09-16T10:58:48.356Z",
+            "lastAccessed": "2022-09-16T10:58:55.404Z"
           },
           {
             "key": "_gat_UA-98188874-1",
             "value": "1",
-            "expires": "2022-09-15T15:17:36.000Z",
+            "expires": "2022-09-16T10:59:48.000Z",
             "domain": "daraz.com.np",
             "path": "/",
             "hostOnly": false,
-            "creation": "2022-09-15T15:16:37.489Z",
-            "lastAccessed": "2022-09-15T15:16:43.342Z"
+            "creation": "2022-09-16T10:58:48.361Z",
+            "lastAccessed": "2022-09-16T10:58:55.408Z"
           },
           {
             "key": "_m_h5_tk_enc",
-            "value": "8602904c2c04ce8792f8ed43ecf1dac3",
-            "expires": "2022-09-22T15:16:35.116Z",
+            "value": "88827b09435a6c2070a7dc89cef0ac83",
+            "expires": "2022-09-23T10:58:45.810Z",
             "domain": "daraz.com.np",
             "path": "/",
             "secure": true,
             "hostOnly": false,
-            "creation": "2022-09-15T15:16:37.492Z",
-            "lastAccessed": "2022-09-15T15:16:43.344Z"
+            "creation": "2022-09-16T10:58:48.364Z",
+            "lastAccessed": "2022-09-16T10:58:55.410Z"
           },
           {
             "key": "_m_h5_tk",
-            "value": "60c07535149848a476ecadff2c910b98_1663262190940",
-            "expires": "2022-09-22T15:16:35.116Z",
+            "value": "fb9d0b201609f1e27d76197f437a080d_1663333121150",
+            "expires": "2022-09-23T10:58:45.810Z",
             "domain": "daraz.com.np",
             "path": "/",
             "secure": true,
             "hostOnly": false,
-            "creation": "2022-09-15T15:16:37.494Z",
-            "lastAccessed": "2022-09-15T15:16:43.349Z"
+            "creation": "2022-09-16T10:58:48.365Z",
+            "lastAccessed": "2022-09-16T10:58:55.415Z"
           },
           {
             "key": "daraz-marketing-tracker",
             "value": "hide",
-            "expires": "2022-09-15T15:26:41.000Z",
+            "expires": "2022-09-16T11:08:53.000Z",
             "domain": "daraz.com.np",
             "path": "/",
             "hostOnly": false,
-            "creation": "2022-09-15T15:16:37.497Z",
-            "lastAccessed": "2022-09-15T15:16:43.350Z"
+            "creation": "2022-09-16T10:58:48.367Z",
+            "lastAccessed": "2022-09-16T10:58:55.417Z"
           },
           {
             "key": "userLanguageML",
             "value": "en-NP",
-            "expires": "2022-10-15T15:16:34.000Z",
+            "expires": "2022-10-16T10:58:45.000Z",
             "domain": "www.daraz.com.np",
             "path": "/",
             "hostOnly": false,
-            "creation": "2022-09-15T15:16:37.499Z",
-            "lastAccessed": "2022-09-15T15:16:43.326Z"
+            "creation": "2022-09-16T10:58:48.369Z",
+            "lastAccessed": "2022-09-16T10:58:55.383Z"
           },
           {
             "key": "hng",
             "value": "NP|en-NP|NPR|524",
-            "expires": "2022-10-15T15:16:34.000Z",
+            "expires": "2022-10-16T10:58:45.000Z",
             "domain": "daraz.com.np",
             "path": "/",
             "hostOnly": false,
-            "creation": "2022-09-15T15:16:37.502Z",
-            "lastAccessed": "2022-09-15T15:16:43.336Z"
+            "creation": "2022-09-16T10:58:48.372Z",
+            "lastAccessed": "2022-09-16T10:58:55.391Z"
           },
           {
             "key": "_ga",
-            "value": "GA1.1.377074876.1663254997",
-            "expires": "2023-10-20T15:16:42.860Z",
+            "value": "GA1.3.1896954621.1663325928",
+            "expires": "2023-10-21T10:58:54.806Z",
             "domain": "daraz.com.np",
             "path": "/",
             "hostOnly": false,
-            "creation": "2022-09-15T15:16:37.504Z",
-            "lastAccessed": "2022-09-15T15:16:43.325Z"
+            "creation": "2022-09-16T10:58:48.374Z",
+            "lastAccessed": "2022-09-16T10:58:55.375Z"
           },
           {
             "key": "utm_channel",
             "value": "NA",
-            "expires": "2022-09-15T15:46:41.000Z",
+            "expires": "2022-09-16T11:28:52.000Z",
             "domain": "daraz.com.np",
             "path": "/",
             "secure": true,
             "hostOnly": false,
-            "creation": "2022-09-15T15:16:37.506Z",
-            "lastAccessed": "2022-09-15T15:16:43.356Z"
+            "creation": "2022-09-16T10:58:48.377Z",
+            "lastAccessed": "2022-09-16T10:58:55.424Z"
           },
           {
             "key": "t_uid",
-            "value": "SpmVL8xAyyfGtUUi0Ad57Y8Hup1se5UI",
-            "expires": "2023-10-20T15:16:33.433Z",
+            "value": "3b972c84-e516-4c1e-84a0-b4764d59d1de",
+            "expires": "2023-09-16T10:58:44.000Z",
             "domain": "daraz.com.np",
             "path": "/",
-            "secure": true,
             "hostOnly": false,
-            "creation": "2022-09-15T15:16:37.509Z",
-            "lastAccessed": "2022-09-15T15:16:43.358Z"
+            "creation": "2022-09-16T10:58:48.379Z",
+            "lastAccessed": "2022-09-16T10:58:55.419Z"
           },
           {
             "key": "t_fv",
-            "value": "1663254993431",
-            "expires": "2023-10-20T15:16:33.431Z",
+            "value": "1663325924971",
+            "expires": "2023-10-21T10:58:44.972Z",
             "domain": "daraz.com.np",
             "path": "/",
             "secure": true,
             "hostOnly": false,
-            "creation": "2022-09-15T15:16:37.511Z",
-            "lastAccessed": "2022-09-15T15:16:43.346Z"
+            "creation": "2022-09-16T10:58:48.381Z",
+            "lastAccessed": "2022-09-16T10:58:55.412Z"
           },
           {
             "key": "_tb_token_",
-            "value": "e95fe03be1ed3",
-            "expires": "2022-09-15T16:06:43.325Z",
+            "value": "ebb6371ed75fa",
+            "expires": "2022-09-16T11:48:55.374Z",
             "domain": "daraz.com.np",
             "path": "/",
             "secure": true,
             "httpOnly": true,
             "hostOnly": false,
-            "creation": "2022-09-15T15:16:37.513Z",
-            "lastAccessed": "2022-09-15T15:16:43.355Z"
+            "creation": "2022-09-16T10:58:48.383Z",
+            "lastAccessed": "2022-09-16T10:58:55.426Z"
           },
           {
             "key": "lzd_sid",
-            "value": "141ccd1a14b35c7f8a00f2d14143c160",
-            "expires": "2022-09-15T16:06:43.325Z",
+            "value": "13b69b7ecd235999113aac453d67f713",
+            "expires": "2022-09-16T11:48:55.374Z",
             "domain": "daraz.com.np",
             "path": "/",
             "secure": true,
             "httpOnly": true,
             "hostOnly": false,
-            "creation": "2022-09-15T15:16:37.516Z",
-            "lastAccessed": "2022-09-15T15:16:43.340Z"
+            "creation": "2022-09-16T10:58:48.385Z",
+            "lastAccessed": "2022-09-16T10:58:55.406Z"
           },
           {
             "key": "cna",
-            "value": "zS+qG7p2NHoCAW4sfbLC0Ig6",
-            "expires": "2023-10-20T15:16:34.534Z",
+            "value": "4ESrG8CTd0ICAW4sc54ccsCg",
+            "expires": "2023-10-21T10:58:45.793Z",
             "domain": "daraz.com.np",
             "path": "/",
             "secure": true,
             "hostOnly": false,
-            "creation": "2022-09-15T15:16:37.518Z",
-            "lastAccessed": "2022-09-15T15:16:43.353Z"
+            "creation": "2022-09-16T10:58:48.387Z",
+            "lastAccessed": "2022-09-16T10:58:55.423Z"
           },
           {
             "key": "lzd_cid",
-            "value": "cb655296-bc10-437e-b564-ac442d9b2fe8",
-            "expires": "2023-09-15T15:16:31.861Z",
+            "value": "a639ef2e-3d77-4a99-9012-a5ad0b075253",
+            "expires": "2023-09-16T10:58:43.785Z",
             "domain": "daraz.com.np",
             "path": "/",
             "hostOnly": false,
-            "creation": "2022-09-15T15:16:37.521Z",
-            "lastAccessed": "2022-09-15T15:16:43.351Z"
+            "creation": "2022-09-16T10:58:48.389Z",
+            "lastAccessed": "2022-09-16T10:58:55.421Z"
           },
           {
             "key": "t_sid",
-            "value": "6AJZYD5Yf2XV5NDZjQzbC6GDRLofCS7s",
-            "expires": "2022-09-15T15:46:41.000Z",
+            "value": "h3ck0llEE6gX4yZM9vN53jAl1yHaJO9X",
+            "expires": "2022-09-16T11:28:52.000Z",
             "domain": "daraz.com.np",
             "path": "/",
             "secure": true,
             "hostOnly": false,
-            "creation": "2022-09-15T15:16:37.525Z",
-            "lastAccessed": "2022-09-15T15:16:43.332Z"
+            "creation": "2022-09-16T10:58:48.392Z",
+            "lastAccessed": "2022-09-16T10:58:55.398Z"
           },
           {
             "key": "_fbp",
-            "value": "fb.2.1663254996998.787730362",
-            "expires": "2022-12-14T15:16:42.000Z",
+            "value": "fb.2.1663325927882.1018087529",
+            "expires": "2022-12-15T10:58:55.000Z",
             "domain": "daraz.com.np",
             "path": "/",
             "hostOnly": false,
-            "creation": "2022-09-15T15:16:37.527Z",
-            "lastAccessed": "2022-09-15T15:16:43.334Z"
+            "creation": "2022-09-16T10:58:48.393Z",
+            "lastAccessed": "2022-09-16T10:58:55.400Z"
           },
           {
             "key": "XSRF-TOKEN",
-            "value": "1106b463-d35c-4675-8f83-698c5c98b4a3",
-            "expires": "2022-09-15T16:06:37.737Z",
+            "value": "937150c6-8983-407d-b7d2-42a0dc06aca3",
+            "expires": "2022-09-16T11:48:48.768Z",
             "domain": "www.daraz.com.np",
             "path": "/",
             "httpOnly": true,
             "hostOnly": false,
-            "creation": "2022-09-15T15:16:37.528Z",
-            "lastAccessed": "2022-09-15T15:16:43.330Z"
+            "creation": "2022-09-16T10:58:48.395Z",
+            "lastAccessed": "2022-09-16T10:58:55.395Z"
           },
           {
             "key": "_bl_uid",
-            "value": "yFl1q8n93mp74z2qLxL8m32we2Xe",
-            "expires": "2023-03-14T15:16:37.448Z",
+            "value": "14l9m8X24m7deCby88a79js08O5y",
+            "expires": "2023-03-15T10:58:48.325Z",
             "domain": "www.daraz.com.np",
             "path": "/",
             "hostOnly": false,
-            "creation": "2022-09-15T15:16:37.539Z",
-            "lastAccessed": "2022-09-15T15:16:43.354Z"
+            "creation": "2022-09-16T10:58:48.397Z",
+            "lastAccessed": "2022-09-16T10:58:55.428Z"
           },
           {
             "key": "_ga_GEHLHHEXPG",
-            "value": "GS1.1.1663254996.1.1.1663255002.0.0.0",
-            "expires": "2023-10-20T15:16:42.858Z",
+            "value": "GS1.1.1663325927.1.1.1663325934.0.0.0",
+            "expires": "2023-10-21T10:58:54.136Z",
             "domain": "daraz.com.np",
             "path": "/",
             "hostOnly": false,
-            "creation": "2022-09-15T15:16:37.541Z",
-            "lastAccessed": "2022-09-15T15:16:43.360Z"
+            "creation": "2022-09-16T10:58:48.400Z",
+            "lastAccessed": "2022-09-16T10:58:55.380Z"
           },
           {
             "key": "_uab_collina",
-            "value": "166325499375061959025078",
-            "expires": "2023-10-20T15:16:33.788Z",
+            "value": "166332592478588042430353",
+            "expires": "2023-10-21T10:58:44.788Z",
             "domain": "www.daraz.com.np",
             "path": "/products",
             "hostOnly": false,
-            "creation": "2022-09-15T15:16:37.542Z",
-            "lastAccessed": "2022-09-15T15:16:43.335Z"
+            "creation": "2022-09-16T10:58:48.404Z",
+            "lastAccessed": "2022-09-16T10:58:55.389Z"
           },
           {
             "key": "l",
-            "value": "eBPGAwenTxtG9pddBOfanurza77OSIRvouPzaNbMiOCP9X5B5eeV56o00R86C3HNh6WWR3Wrj_IwBeYBqBdKnxvOJrh3dJMmn",
-            "expires": "2023-03-14T15:16:38.000Z",
+            "value": "eBP1duDlTx_OrrrJBOfwourza77OSIRA_uPzaNbMiOCP9X1B5RAG56o8uuY6C3MNh6E6R3Wrj_IwBeYBqBdKnxvtnStBwQHmn",
+            "expires": "2023-03-15T10:58:49.000Z",
             "domain": "daraz.com.np",
             "path": "/",
             "hostOnly": false,
-            "creation": "2022-09-15T15:16:43.329Z",
-            "lastAccessed": "2022-09-15T15:16:43.329Z"
+            "creation": "2022-09-16T10:58:54.767Z",
+            "lastAccessed": "2022-09-16T10:58:55.387Z"
           },
           {
-            "key": "isg",
-            "value": "BIWF8Ev8SieycW57tkzuBiKMlMG_QjnUaEtuoYfqQbzLHqWQT5JJpBPnL1roaFGM",
-            "expires": "2023-03-14T15:16:38.000Z",
+            "key": "xlly_s",
+            "value": "1",
+            "expires": "2022-09-17T10:58:50.000Z",
             "domain": "daraz.com.np",
             "path": "/",
             "secure": true,
             "hostOnly": false,
-            "creation": "2022-09-15T15:16:43.347Z",
-            "lastAccessed": "2022-09-15T15:16:43.347Z"
+            "creation": "2022-09-16T10:58:54.782Z",
+            "lastAccessed": "2022-09-16T10:58:55.402Z"
+          },
+          {
+            "key": "isg",
+            "value": "BBQUwxxCC-N8a58vCAyK_MhC5VKGbThXkSy_Eq71oB8imbTj1n0I58oAn4kBZnCv",
+            "expires": "2023-03-15T10:58:49.000Z",
+            "domain": "daraz.com.np",
+            "path": "/",
+            "secure": true,
+            "hostOnly": false,
+            "creation": "2022-09-16T10:58:54.795Z",
+            "lastAccessed": "2022-09-16T10:58:55.413Z"
           }
         ]
       },
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2022-09-15T16:06:29.342Z",
-      "createdAt": "2022-09-15T15:16:29.342Z",
-      "usageCount": 3,
+      "expiresAt": "2022-09-16T11:48:41.996Z",
+      "createdAt": "2022-09-16T10:58:41.996Z",
+      "usageCount": 4,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_oc0OD1xAS4",
+      "id": "session_fXA2dfB1BC",
       "cookieJar": {
         "version": "tough-cookie@4.1.2",
         "storeType": "MemoryCookieStore",
@@ -310,14 +320,14 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2022-09-15T16:06:29.356Z",
-      "createdAt": "2022-09-15T15:16:29.356Z",
+      "expiresAt": "2022-09-16T11:48:42.006Z",
+      "createdAt": "2022-09-16T10:58:42.006Z",
       "usageCount": 1,
       "maxUsageCount": 50,
       "errorScore": 0
     },
     {
-      "id": "session_OkfWcfqUom",
+      "id": "session_0JGBOjrRLf",
       "cookieJar": {
         "version": "tough-cookie@4.1.2",
         "storeType": "MemoryCookieStore",
@@ -330,8 +340,28 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2022-09-15T16:06:39.272Z",
-      "createdAt": "2022-09-15T15:16:39.272Z",
+      "expiresAt": "2022-09-16T11:48:49.714Z",
+      "createdAt": "2022-09-16T10:58:49.714Z",
+      "usageCount": 1,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_WdHlP7gkxO",
+      "cookieJar": {
+        "version": "tough-cookie@4.1.2",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2022-09-16T11:48:50.381Z",
+      "createdAt": "2022-09-16T10:58:50.381Z",
       "usageCount": 1,
       "maxUsageCount": 50,
       "errorScore": 0
